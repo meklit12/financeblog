@@ -5,6 +5,10 @@ import sys
 
 
 def main():
+<<<<<<< HEAD
+=======
+    """Run administrative tasks."""
+>>>>>>> 30c7d3d263f020e02fa82aeeba7f2e4c7a4ec528
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'financeblog.settings')
     try:
         from django.core.management import execute_from_command_line
