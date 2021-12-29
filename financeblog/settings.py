@@ -72,7 +72,6 @@ WSGI_APPLICATION = 'financeblog.wsgi.application'
 
 
 # Database
-<<<<<<< HEAD
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
 DATABASES = {
@@ -87,28 +86,12 @@ DATABASES = {
     'PASSWORD': 'asdf',
     'HOST': '127.0.0.1',
     'PORT': '5432',
-=======
-# https://docs.djangoproject.com/en/4.0/ref/settings/#databases
-
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME':'financeblog',
-        'USER':'postgres',
-        'PASSWORD':'345502',
-        'HOST':'127.0.0.1',
-        'PORT':'5432',
->>>>>>> 30c7d3d263f020e02fa82aeeba7f2e4c7a4ec528
     }
 }
 
 
 # Password validation
-<<<<<<< HEAD
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
-=======
-# https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
->>>>>>> 30c7d3d263f020e02fa82aeeba7f2e4c7a4ec528
 
 AUTH_PASSWORD_VALIDATORS = [
     {
@@ -127,11 +110,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 
 # Internationalization
-<<<<<<< HEAD
 # https://docs.djangoproject.com/en/3.0/topics/i18n/
-=======
-# https://docs.djangoproject.com/en/4.0/topics/i18n/
->>>>>>> 30c7d3d263f020e02fa82aeeba7f2e4c7a4ec528
 
 LANGUAGE_CODE = 'en-us'
 
@@ -139,26 +118,12 @@ TIME_ZONE = 'UTC'
 
 USE_I18N = True
 
-<<<<<<< HEAD
 USE_L10N = True
 
-=======
->>>>>>> 30c7d3d263f020e02fa82aeeba7f2e4c7a4ec528
 USE_TZ = True
 
 
 # Static files (CSS, JavaScript, Images)
-<<<<<<< HEAD
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
-=======
-# https://docs.djangoproject.com/en/4.0/howto/static-files/
-
-STATIC_URL = 'static/'
-
-# Default primary key field type
-# https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
-
-DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
->>>>>>> 30c7d3d263f020e02fa82aeeba7f2e4c7a4ec528
